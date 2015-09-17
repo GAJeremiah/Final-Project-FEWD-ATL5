@@ -1,0 +1,56 @@
+body {
+	background: url(../images/white-washed.png);
+	font-size: 32px;
+	font-family: impact;
+}
+
+header {
+	background: orange;
+	color: white;
+}
+
+footer {
+	background: gray;
+}
+
+header .email {
+	float: right;
+	font-size: 20px;
+}
+
+footer .social-logo {
+	text-align: center;
+	padding: 20px;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.quote-container {
+	background: black;
+	font-family: Arial black, serif;
+	font-size: 32px;
+	opacity: .8;
+	color: yellow;
+	text-align: center;
+}
+
+.block {
+	display: inline-block;
+	width: 30%;
+	border: 3px solid black;
+	font-size: 24px;
+	margin: 10px 0px 0px 20px;
+	text-align: center;
+}
+
+.block a {
+	text-decoration: none;
+	color: black;
+	margin: 32px;
+	font-weight: bolder;
+}
+
